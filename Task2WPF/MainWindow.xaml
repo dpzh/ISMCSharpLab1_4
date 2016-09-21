@@ -1,0 +1,19 @@
+﻿<Window x:Class="Task2WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Task2WPF"
+        mc:Ignorable="d"
+        Title="Task2 - Вычислить значение выражения" d:DesignWidth="427.722" d:DesignHeight="245.985" Width="424" Height="246" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label x:Name="label" Content="m:" HorizontalAlignment="Left" Margin="42,26,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="n:" HorizontalAlignment="Left" Margin="42,71,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="26" Margin="82,26,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="106"/>
+        <TextBox x:Name="textBox1" HorizontalAlignment="Left" Height="26" Margin="82,71,0,0" TextWrapping="Wrap" Text="0" VerticalAlignment="Top" Width="106"/>
+        <Label x:Name="label2" Content="z1 =" HorizontalAlignment="Left" Margin="229,26,0,0" VerticalAlignment="Top" Width="136"/>
+        <Label x:Name="label3" Content="z2 =" HorizontalAlignment="Left" Height="26" Margin="229,71,0,0" VerticalAlignment="Top" Width="136"/>
+        <Button x:Name="button" Content="Посчитать" HorizontalAlignment="Left" Height="30" Margin="42,120,0,0" VerticalAlignment="Top" Width="146" Click="button_Click"/>
+
+    </Grid>
+</Window>
